@@ -1,0 +1,187 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#green-container-pay {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 5rem 0 8rem 0;
+    background: #00A650;
+}
+
+#green-container-pay #content-green-container-pay {
+    display: flex;
+    gap: 7rem;
+    margin: 0 3rem;
+}
+
+#green-container-pay #content-green-container-pay h1.title-green-container {
+    font-size: 2.4rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+#green-container-pay #content-green-container-pay .icon-green-container {
+    background: #fff;
+    border-radius: 50%;
+    padding: 1rem 1.5rem 1.7rem;
+    position: relative;
+    max-height: 75px;
+}
+
+#green-container-pay #content-green-container-pay .icon-green-container::after {
+    content: '...';
+    font-size: 2.2rem;
+    padding: 0 7px 1.1rem;
+    display: block;
+    position: absolute;
+    bottom: -1.5rem;
+    right: 0;
+    color: #fff;
+    background: #017c3d;
+    border-radius: 100%;
+}
+
+#container-pay-product {
+    width: 90%;
+    max-width: 630px;
+    border-radius: 8px;
+    background: #fff;
+    padding: 2rem;
+    margin-top: -4rem;
+}
+
+#container-pay-product h2.title-container-pay-product {
+    font-size: 1.8rem;
+    color: #333333;
+}
+
+#container-pay-product .steps-to-pay {
+    margin: 3rem 0 2.5rem 3rem;
+}
+
+#container-pay-product .steps-to-pay p {
+    color: #333333;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 2rem;
+}
+
+#container-pay-product .steps-to-pay p strong{
+    font-size: inherit;
+    color: #000;
+}
+
+#container-pay-product .flex-center-qr-code {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3.4rem;
+}
+
+#container-pay-product .flex-center-qr-code img#image-qr-code {
+    width: 100%;
+    max-width: 200px;
+}
+
+#container-pay-product .span-pay-hour {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #333333;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 1.5rem;
+}
+
+#container-pay-product .content-copy-code-pay {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding-top: 2rem;
+}
+
+#container-pay-product .content-copy-code-pay .texts-info-payment
+h2.title-copy-code {
+    font-size: 1.8rem;
+    padding-bottom: 0.8rem;
+    color: #333333;
+}
+
+#container-pay-product .content-copy-code-pay p.p-copy-code-payment {
+    font-size: 1.3rem;
+    line-height: 2rem;
+    width: 85%;
+    color: #888181;
+}
+
+#container-pay-product .content-copy-code-pay .code-to-copy {
+    display: flex;
+    padding: 2rem;
+    border: 1px solid #888181;
+    border-radius: 5px;
+}
+
+#container-pay-product .content-copy-code-pay .code-to-copy div#code-pix {
+    font-size: 1.5rem;
+    color: #888181;
+    word-break: break-all;
+    padding-right: 3rem;
+}
+
+#container-pay-product .content-copy-code-pay .code-to-copy
+button.btn-copy-code {
+    border: 0;
+    background: none;
+    color: #3483FA;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+#container-pay-product .content-copy-code-pay .buttons-copy-code-and-buys {
+    display: flex;
+    gap: 2rem;
+}
+
+#container-pay-product .content-copy-code-pay .buttons-copy-code-and-buys button {
+    background: #3483FA;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 1rem;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#container-pay-product .content-copy-code-pay .buttons-copy-code-and-buys
+button#btn-copy-the-code-pix:hover {
+    background: #5D9CFB;
+}
+
+#container-pay-product .content-copy-code-pay .buttons-copy-code-and-buys
+button#btn-see-shopping {
+    background: none;
+    color: #3483FA;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+#container-pay-product .content-copy-code-pay .buttons-copy-code-and-buys
+button#btn-see-shopping:hover {
+    color: #5D9CFB;
+}
+
+@media (max-width: 660px) {
+    #green-container-pay #content-green-container-pay {
+        gap: 5rem;
+    }
+
+    #green-container-pay #content-green-container-pay h1.title-green-container {
+        font-size: 2.2rem;
+    }
+}

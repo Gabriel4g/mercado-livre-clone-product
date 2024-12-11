@@ -1,0 +1,158 @@
+body {
+    height: 100vh;
+}
+
+header#header-mercado-livre-pages {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: #FFE600;
+}
+
+header#header-mercado-livre-pages #content-header-mercado-livre {
+    width: 90%;
+    max-width: 1115px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 11px 0;
+}
+
+header#header-mercado-livre-pages #content-header-mercado-livre a.contato {
+    font-size: 1.4rem;
+    color: #000000E5;
+    text-decoration: none;
+}
+
+main#layout-to-container-delivery-method {
+    width: 100%;
+    height: 75%;
+    background: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main#layout-to-container-delivery-method > #container-delivery-method {
+    background: #fff;
+    width: 80%;
+    border-radius: 4px;
+    max-width: 750px;
+    display: flex;
+    justify-content: center;
+    padding: 3.2rem;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+}
+
+main#layout-to-container-delivery-method > #container-delivery-method .content-delivery-method {
+    padding: 6.4rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3.5rem;
+}
+
+main#layout-to-container-delivery-method > #container-delivery-method 
+.content-delivery-method h1.title-container-delivery-method {
+    font-size: 2.4rem;
+    font-weight: 500;
+    color: #333333;
+    text-align: center;
+}
+
+main#layout-to-container-delivery-method > #container-delivery-method
+.content-delivery-method .buttons-delivery-method {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+main#layout-to-container-delivery-method > #container-delivery-method
+.content-delivery-method .buttons-delivery-method button {
+    background: #3483FA;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    padding: 1.5rem 3rem;
+    font-size: 1.8rem;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+main#layout-to-container-delivery-method > #container-delivery-method
+.content-delivery-method .buttons-delivery-method button#btn-remove-in-agency {
+    background: none;
+    color: #3483FA;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+main#layout-to-container-delivery-method > #container-delivery-method
+.content-delivery-method .buttons-delivery-method button#btn-send-address:hover {
+    background: #5D9CFB;
+}
+
+main#layout-to-container-delivery-method > #container-delivery-method
+.content-delivery-method .buttons-delivery-method button#btn-remove-in-agency:hover {
+    color: #5D9CFB;
+}
+
+footer#footer-delivery-method {
+    background: #fff;
+    padding: 1.6rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+}
+
+footer#footer-delivery-method .content-footer-delivery-method {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+footer#footer-delivery-method .content-footer-delivery-method 
+ul.ul-links-footer-delivery-method {
+    display: flex;
+    gap: 2rem;
+}
+
+footer#footer-delivery-method .content-footer-delivery-method 
+ul.ul-links-footer-delivery-method li.li-link-footer {
+    list-style: none;
+}
+
+footer#footer-delivery-method .content-footer-delivery-method 
+ul.ul-links-footer-delivery-method li.li-link-footer a {
+    font-size: 1.3rem;
+    color: #333333;
+}
+
+footer#footer-delivery-method .content-footer-delivery-method
+.copyright-address-footer-delivery-method p {
+    font-size: 1.2rem;
+    color: #999999;
+    line-height: 2rem;
+}
+
+@media (max-width: 1235px) {
+    footer#footer-delivery-method .content-footer-delivery-method 
+    ul.ul-links-footer-delivery-method li.li-link-footer a {
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 1075px) {
+    footer#footer-delivery-method .content-footer-delivery-method 
+    ul.ul-links-footer-delivery-method li.li-link-footer a {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    main#layout-to-container-delivery-method > #container-delivery-method .content-delivery-method 
+    .buttons-delivery-method {
+        width: 100%;
+    }
+}

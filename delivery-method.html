@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercado Livre Brasil - Onde comprar e vender de Tudo</title>
+    <link rel="stylesheet" href="./css/delivery-method.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+</head>
+<body>
+    <header id="header-mercado-livre-pages">
+        <div id="content-header-mercado-livre">
+            <a href="#">
+                <img src="./images/logo-mercado-livre.png" alt="Logo mercado livre" width="134px">
+            </a>
+
+            <a href="#" class="contato">Contato</a>
+        </div>
+    </header>
+
+    <main id="layout-to-container-delivery-method">
+        <div id="container-delivery-method">
+            <div class="content-delivery-method">
+                <h1 class="title-container-delivery-method">Como você quer receber a sua compra?</h1>
+    
+                <div class="buttons-delivery-method">
+                    <button id="btn-send-address" onclick="redirectToChoosePayment()">Enviar para o meu endereço</button>
+                    <button id="btn-remove-in-agency">Retirada na Agência Mercado Livre</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer id="footer-delivery-method">
+        <div class="content-footer-delivery-method">
+            <ul class="ul-links-footer-delivery-method">
+                <li class="li-link-footer"><a href="#">Trabalhe conosco</a></li>
+                <li class="li-link-footer"><a href="#">Termos e condições</a></li>
+                <li class="li-link-footer"><a href="#">Promoções</a></li>
+                <li class="li-link-footer"><a href="#">Como cuidamos da sua privacidade</a></li>
+                <li class="li-link-footer"><a href="#">Acessibilidade</a></li>
+                <li class="li-link-footer"><a href="#">Contato</a></li>
+                <li class="li-link-footer"><a href="#">Informações sobre seguros</a></li>
+                <li class="li-link-footer"><a href="#">Programa de Afiliados</a></li>
+                <li class="li-link-footer"><a href="#">Black friday</a></li>
+            </ul>
+
+            <div class="copyright-address-footer-delivery-method">
+                <p class="p-copyright-footer">Copyright © 1999-2024 Ebazar.com.br LTDA.</p>
+                <p class="p-address-footer">CNPJ n.º 03.007.331/0001-41 / Av. das Nações Unidas, nº 3.003, Bonfim, Osasco/SP - CEP 06233-903 - empresa do grupo Mercado Livre.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function redirectToChoosePayment() {
+            window.location.href = "choose-payment.html";
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,1156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+    text-decoration: none;
+    font-size: 62.5%;
+    font-family: 'Inter', sans-serif;
+}
+
+:root {
+    --black-primary-color: #000000E6;
+}
+
+body {
+    background: #EDEDED;
+}
+
+header#header-mercado-livre {
+    background: #FFE600;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0 3px;
+}
+
+header#header-mercado-livre #content-header {
+    width: 90%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+header#header-mercado-livre #content-header .first-content-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header#header-mercado-livre #content-header .first-content-header 
+.logo-and-input-header {
+    width: 100%;
+    display: flex;
+    gap: 6rem;
+}
+
+header#header-mercado-livre #content-header .first-content-header 
+.container-input-search-header {
+    background-color: #fff;
+    height: 45px;
+    width: 100%;
+    max-width: 580px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 2px;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.2);
+}
+
+header#header-mercado-livre #content-header .first-content-header 
+.container-input-search-header input#input-search-header:focus {
+    border: 1px solid #3483Fa;
+}
+
+header#header-mercado-livre #content-header .first-content-header 
+.container-input-search-header input#input-search-header {
+    width: 100%;
+    padding: 0 2rem;
+    font-size: 1.6rem;
+    outline: none;
+}
+
+header#header-mercado-livre #content-header .first-content-header 
+.container-input-search-header button.btn-search-input-header {
+    background: none;
+    padding: 1.2rem 1.5rem;
+    cursor: pointer;
+    position: relative;
+}
+
+header#header-mercado-livre #content-header .first-content-header 
+.container-input-search-header button.btn-search-input-header::before {
+    content: '';
+    display: block;
+    height: 20px;
+    width: 1px;
+    background: #ccc;
+    position: absolute;
+    left: 0;
+    top: 12px;
+}
+
+header#header-mercado-livre #content-header .second-content-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header#header-mercado-livre #content-header .second-content-header .nav-cep-header {
+    display: flex;
+    gap: 7.6rem;
+    align-items: center;
+}
+
+header#header-mercado-livre #content-header .second-content-header .cep-header {
+    display: flex;
+    padding: 6px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    gap: 5px;
+    text-decoration: none;
+}
+
+header#header-mercado-livre #content-header .second-content-header .cep-header:hover {
+    border: 1px solid rgba(0, 0, 0, .1);
+}
+
+header#header-mercado-livre #content-header .second-content-header .cep-header 
+.texts-cep p {
+    font-size: 1.4rem;
+    font-family: sans-serif;
+    line-height: 1.4rem;
+    color: rgba(0, 0, 0, .55);
+}
+
+header#header-mercado-livre #content-header .second-content-header .cep-header 
+.texts-cep p /* tag a in nav-header */ strong {
+    font-size: inherit;
+    font-weight: 400;
+    color: #000;
+}
+
+header#header-mercado-livre #content-header .second-content-header ul.nav-header {
+    display: flex;
+    align-items: center;
+    gap: 1.3rem;
+}
+
+header#header-mercado-livre #content-header .second-content-header ul.nav-header li {
+    list-style: none;
+    font-size: 1.4rem;
+    font-family: 'Inter', sans-serif;
+    color: #000000E5;
+}
+
+header#header-mercado-livre #content-header .second-content-header 
+ul.nav-header li:hover {
+    color: rgba(0, 0, 0, .7);
+    transition: 200ms ease-in;
+}
+
+header#header-mercado-livre #content-header .second-content-header 
+ul.nav-header li.li-mercado-play {
+    position: relative;
+}
+
+header#header-mercado-livre #content-header .second-content-header 
+ul.nav-header li.li-mercado-play::before {
+    content: 'GRÁTIS';
+    display: block;
+    position: absolute;
+    top: -10px;
+    left: 22px;
+    padding: 1px 3px;
+    background: #00a650;
+    border-radius: 8px;
+    font-size: 8px;
+    color: #fff;
+}
+
+header#header-mercado-livre #content-header .second-content-header 
+ul.second-nav-header {
+    gap: 1.5rem;
+}
+
+div#brinquedos-hobbies-below-header {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+div#brinquedos-hobbies-below-header .content-brinquedos-hobbies {
+    width: 90%;
+    max-width: 1184px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1rem;
+}
+
+div#brinquedos-hobbies-below-header .content-brinquedos-hobbies a {
+    font-size: 1.4rem;
+    color: #3483Fa;
+    display: flex;
+    gap: 3px;
+}
+
+div#brinquedos-hobbies-below-header .content-brinquedos-hobbies
+.content-texts {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+div#brinquedos-hobbies-below-header .content-brinquedos-hobbies 
+.second-texts-brinquedos-hobbies a.a-compartilhar {
+    position: relative;
+}
+
+div#brinquedos-hobbies-below-header .content-brinquedos-hobbies 
+.second-texts-brinquedos-hobbies a.a-compartilhar::before {
+    content: '';
+    background: rgba(0, 0, 0, .2);
+    display: block;
+    height: 100%;
+    width: 1px;
+    position: absolute;
+    left: -15px;
+}
+
+section#section-product-sell {
+    display: flex;
+    justify-content: center;
+}
+
+section#section-product-sell #container-product-sell {
+    width: 90%;
+    max-width: 1184px;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+section#section-product-sell #container-product-sell 
+#content-product-top {
+    width: 100%;
+    display: flex;
+    gap: 10rem;
+    padding: 16px 0 0 16px
+}
+
+section#section-product-sell #container-product-sell 
+#content-product-top .column-images-product {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+section#section-product-sell #container-product-sell 
+#content-product-top .column-images-product img {
+    cursor: pointer;
+    padding: 1px;
+    border: 1px solid rgba(0, 0, 0, .3);
+}
+
+section#section-product-sell #container-product-sell 
+#content-product-top .column-images-product img:hover {
+    border: 2px solid #3483FA;
+}
+
+section#section-product-sell #container-product-sell 
+#content-product-top figure {
+    position: relative;
+    height: 100%;
+    max-height: 400px;
+}
+
+section#section-product-sell #container-product-sell 
+#content-product-top figure > img {
+    cursor: zoom-in;
+    object-fit: contain;
+    height: auto;
+    width: 90%;
+    padding: 16px;
+}
+
+section#section-product-sell #container-product-sell 
+#content-product-top figure::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: rgba(0, 0, 0, .15);
+    position: absolute;
+    bottom: -80px;
+}
+
+section#section-product-sell #container-product-sell .content-left-product
+.related-products-sell {
+    margin-top: 120px;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+section#section-product-sell #container-product-sell .content-left-product
+.related-products-sell .titles-related-products h2 {
+    font-size: 2.4rem;
+    font-weight: 400;
+    color: var(--black-primary-color);
+}
+
+section#section-product-sell #container-product-sell .content-left-product
+.related-products-sell .titles-related-products p {
+    font-size: 1.2rem;
+    color: #0000008C;
+}
+
+section#section-product-sell #container-product-sell .content-left-product
+.related-products-sell .content-related-products {
+    display: flex;
+    gap: 2rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    padding-bottom: 5rem;
+}
+
+section#section-product-sell #container-product-sell .content-left-product
+.related-products-sell .content-related-products .box-related-product {
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, .1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section#section-product-sell #container-product-sell .content-left-product
+.related-products-sell .content-related-products .box-related-product img {
+    width: 100%;
+    max-width: 300px;
+    height: 200px;
+    border-bottom: inherit;
+}
+
+section#section-product-sell #container-product-sell .content-left-product
+.related-products-sell .content-related-products .box-related-product
+.texts-product-related {
+    padding: 1.5rem;
+}
+
+section#section-product-sell #container-product-sell .content-left-product
+.related-products-sell .content-related-products .box-related-product
+.texts-product-related span.price-canceled {
+    font-size: 1.2rem;
+    color: #0000008C;
+    position: relative;
+}
+
+section#section-product-sell #container-product-sell .content-left-product
+.related-products-sell .content-related-products .box-related-product
+.texts-product-related span.price-canceled:before {
+    content: '';
+    height: 1px;
+    width: 100%;
+    background: #0000008C;
+    display: block;
+    position: absolute;
+    top: 50%;
+}
+
+section#section-product-sell #container-product-sell .content-left-product
+.related-products-sell .content-related-products .box-related-product
+.texts-product-related h3.price-product-related {
+    font-size: 2.4rem;
+    font-weight: 500;
+    color: var(--black-primary-color);
+    margin: 3px 0 6px;
+}
+
+section#section-product-sell #container-product-sell .content-left-product
+.related-products-sell .content-related-products .box-related-product
+.texts-product-related h3.price-product-related span.desconto-product-related {
+    color: #00A650;
+    line-height: 25px;
+}
+
+section#section-product-sell #container-product-sell .content-left-product
+.related-products-sell .content-related-products .box-related-product
+.texts-product-related p.parcelas-product-related {
+    font-size: 1.4rem;
+    color: var(--black-primary-color);
+}
+
+section#section-product-sell #container-product-sell .content-left-product
+.related-products-sell .content-related-products .box-related-product
+.texts-product-related span.frete-gratis-related-product {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #00A650;
+}
+
+section#section-product-sell #container-product-sell .content-left-product
+.related-products-sell .content-related-products .box-related-product
+.texts-product-related span.frete-gratis-related-product p.because-frete-gratis {
+    font-size: inherit;
+    font-weight: 400;
+    color: #0000008C;
+}
+
+section#section-product-sell #container-product-sell .content-left-product
+.related-products-sell .content-related-products .box-related-product
+.texts-product-related p.description-box-related-product {
+    font-size: 1.4rem;
+    font-family: 'Poppins', sans-serif;
+    color: var(--black-primary-color);
+    margin-top: 2rem;
+}
+
+section#section-product-sell #container-product-sell .content-left-product 
+.product-characteristic-container {
+    padding: 5rem;
+}
+
+section#section-product-sell #container-product-sell .content-left-product 
+.product-characteristic-container h2.title-product-characteristic {
+    font-size: 2.4rem;
+    font-weight: 400;
+    color: var(--black-primary-color);
+    margin-bottom: 4rem;
+}
+
+section#section-product-sell #container-product-sell .content-left-product 
+.product-characteristic-container .content-all-product-characteristic {
+    display: flex;
+    gap: 4rem;
+}
+
+section#section-product-sell #container-product-sell .content-left-product 
+.product-characteristic-container .content-all-product-characteristic
+.content-info-characteristic {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+section#section-product-sell #container-product-sell .content-left-product 
+.product-characteristic-container .content-all-product-characteristic h3.title-content-info-product {
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+section#section-product-sell #container-product-sell .content-left-product 
+.product-characteristic-container .content-all-product-characteristic
+.content-info-characteristic .background-box-highlight {
+    background-color: #EBEBEB;
+}
+
+section#section-product-sell #container-product-sell .content-left-product 
+.product-characteristic-container .content-all-product-characteristic
+.content-info-characteristic strong {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--black-primary-color);
+}
+
+section#section-product-sell #container-product-sell .content-left-product 
+.product-characteristic-container .content-all-product-characteristic
+.content-info-characteristic p.p-product-characteristic {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: var(--black-primary-color);
+}
+
+section#section-product-sell #container-product-sell .content-left-product 
+.product-characteristic-container .content-all-product-characteristic
+.first-content-info-product p.p-product-characteristic {
+    width: 60%;
+}
+
+section#section-product-sell #container-product-sell .content-left-product 
+.product-characteristic-container .content-all-product-characteristic
+.box-characteristic {
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+section#section-product-sell #container-product-sell .content-left-product
+#container-product-opinions {
+    display: flex;
+    gap: 5rem;
+    padding: 2rem 2rem 2rem 5rem;
+}
+
+section#section-product-sell #container-product-sell .content-left-product
+#container-product-opinions .left-avaliation-opinions {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+section#section-product-sell #container-product-sell .content-left-product
+#container-product-opinions .left-avaliation-opinions h2.title-product-opinions {
+    font-size: 2.4rem;
+    font-weight: 400;
+}
+
+section#section-product-sell #container-product-sell .content-left-product
+#container-product-opinions .left-avaliation-opinions .note-avaliation {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+section#section-product-sell #container-product-sell .content-left-product
+#container-product-opinions .left-avaliation-opinions .note-avaliation span {
+    font-size: 4.8rem;
+    font-weight: 600;
+    color: #3483FA;
+}
+
+section#section-product-sell #container-product-sell .content-left-product
+#container-product-opinions .left-avaliation-opinions .note-avaliation
+.stars-note-avaliation .flex-stars {
+    display: flex;
+    gap: 0.7rem;
+}
+
+section#section-product-sell #container-product-sell .content-left-product
+#container-product-opinions .left-avaliation-opinions .note-avaliation
+.stars-note-avaliation p {
+    font-size: 1.4rem;
+    color: #0000008C;
+    line-height: 3rem;
+}
+
+section#section-product-sell #container-product-sell .content-left-product
+#container-product-opinions .left-avaliation-opinions .rating-opinions {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+section#section-product-sell #container-product-sell .content-left-product
+#container-product-opinions .left-avaliation-opinions .rating-opinions
+.flex-barras-rating {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+section#section-product-sell #container-product-sell .content-left-product
+#container-product-opinions .left-avaliation-opinions .rating-opinions
+.flex-barras-rating .barra-rating {
+    width: 100%;
+    height: 4px;
+    background: #0000008C;
+    border-radius: 15px;
+}
+
+section#section-product-sell #container-product-sell .content-left-product
+#container-product-opinions .left-avaliation-opinions .rating-opinions
+.flex-barras-rating span {
+    font-size: 1.4rem;
+    color: #0000008C;
+    display: flex;
+    gap: 0.5rem;
+}
+
+section#section-product-sell #container-product-sell .content-left-product
+#container-product-opinions .left-avaliation-opinions .avaliacao-caracteristicas {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+section#section-product-sell #container-product-sell .content-left-product
+#container-product-opinions .left-avaliation-opinions .avaliacao-caracteristicas strong {
+    font-size: 1.6rem;
+}
+
+section#section-product-sell #container-product-sell .content-left-product
+#container-product-opinions .left-avaliation-opinions .avaliacao-caracteristicas
+.column-caracteristicas-star {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+section#section-product-sell #container-product-sell .content-left-product
+#container-product-opinions .left-avaliation-opinions .avaliacao-caracteristicas
+.column-caracteristicas-star span {
+    font-size: 1.4rem;
+}
+
+section#section-product-sell #container-product-sell .content-left-product
+#container-product-opinions .left-avaliation-opinions .avaliacao-caracteristicas
+.column-caracteristicas-star .flex-caracteristicas-star {
+    display: flex;
+    gap: 0.7rem;
+}
+
+section#section-product-sell #container-product-sell .content-left-product
+#container-product-opinions .right-avaliations-opinions {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding-top: 5rem;
+}
+
+section#section-product-sell #container-product-sell .content-left-product
+#container-product-opinions .right-avaliations-opinions .content-opinion {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+section#section-product-sell #container-product-sell .content-left-product
+#container-product-opinions .right-avaliations-opinions h3.title-content-opinions {
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: #000000E6;
+}
+
+section#section-product-sell #container-product-sell .content-left-product
+#container-product-opinions .right-avaliations-opinions .first-content-opinions
+.flex-images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+section#section-product-sell #container-product-sell .content-left-product
+#container-product-opinions .right-avaliations-opinions .first-content-opinions
+.flex-images img {
+    height: 16.8rem;
+    border-radius: 5px;
+}
+
+section#section-product-sell #container-product-sell .content-left-product
+#container-product-opinions .right-avaliations-opinions p.p-opinion {
+    font-size: 1.6rem;
+    color: #000000E6;
+}
+
+section#section-product-sell #container-product-sell .content-left-product
+#container-product-opinions .right-avaliations-opinions span.span-explain {
+    font-size: 1.4rem;
+    color: #0000008C;
+}
+
+section#section-product-sell #container-product-sell .content-left-product
+#container-product-opinions .right-avaliations-opinions .inline-buttons-like {
+    display: flex;
+    gap: 2rem;
+}
+
+section#section-product-sell #container-product-sell .content-left-product
+#container-product-opinions .right-avaliations-opinions .inline-buttons-like
+button.btn-like {
+    color: #0000008C;
+    cursor: pointer;
+    background: none;
+    border-radius: 53px;
+    border: 1px solid #c4c4c4;
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+section#section-product-sell #container-product-sell .content-left-product
+#container-product-opinions .right-avaliations-opinions .inline-buttons-like
+button.btn-like:hover {
+    color: #3483FA;
+    border-color: currentColor;
+    background: rgba(65, 137, 230, .10);
+}
+
+section#section-product-sell #container-product-sell .content-left-product
+#container-product-opinions .right-avaliations-opinions .between-date-stars {
+    display: flex;
+    justify-content: space-between;
+}
+
+section#section-product-sell #container-product-sell .content-left-product
+#container-product-opinions .right-avaliations-opinions .between-date-stars
+p.date-post-content {
+    font-size: 1.2rem;
+    color: #0000008C;
+}
+
+section#section-product-sell #container-product-sell 
+.vertical-content-right-product {
+    border: 1px solid rgba(0, 0, 0, .1);
+    margin: 16px 16px 0 48px;
+    padding: 16px;
+    width: 100%;
+    max-width: 370px;
+}
+
+section#section-product-sell #container-product-sell 
+.vertical-content-right-product span.subtitle-product {
+    font-size: 1.4rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: rgba(0, 0, 0, .55);
+}
+
+section#section-product-sell #container-product-sell 
+.vertical-content-right-product h1.title-product {
+    padding-top: 8px;
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: var(--black-primary-color);
+    line-height: 30px;
+}
+
+section#section-product-sell #container-product-sell 
+.vertical-content-right-product .rate-star-product {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding-top: 4px;
+}
+
+section#section-product-sell #container-product-sell 
+.vertical-content-right-product .rate-star-product span {
+    font-size: 1.4rem;
+    color: rgba(0, 0, 0, .55);
+}
+
+section#section-product-sell #container-product-sell 
+.vertical-content-right-product .content-price-product {
+    margin: 1.6rem 0 2.5rem;
+}
+
+section#section-product-sell #container-product-sell 
+.vertical-content-right-product .content-price-product span.price-canceled {
+    font-size: 1.6rem;
+    position: relative;
+    color: rgba(0, 0, 0, .55);;
+}
+
+section#section-product-sell #container-product-sell 
+.vertical-content-right-product .content-price-product span.price-canceled::before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background: rgba(0, 0, 0, .5);
+    top: 50%;
+}
+
+section#section-product-sell #container-product-sell 
+.vertical-content-right-product .content-price-product h2.price-product {
+    font-size: 3.6rem;
+    font-weight: 300;
+    color: var(--black-primary-color);
+}
+
+section#section-product-sell #container-product-sell 
+.vertical-content-right-product .content-price-product 
+h2.price-product span.desconto-product {
+    color: #00A650;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 45px;
+}
+
+section#section-product-sell #container-product-sell 
+.vertical-content-right-product .content-price-product a.meios-pagamentos {
+    font-size: 1.4rem;
+    color: #3483FA;
+}
+
+section#section-product-sell #container-product-sell 
+.vertical-content-right-product .frete-product span.frete{
+    font-size: 1.6rem;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    color: #00A650;
+}
+
+section#section-product-sell #container-product-sell 
+.vertical-content-right-product .frete-product p {
+    font-size: 1.4rem;
+    line-height: 23px;
+    color: #0000008C;
+}
+
+section#section-product-sell #container-product-sell 
+.vertical-content-right-product .frete-product a {
+    font-size: 1.4rem;
+    color: #3483FA;
+}
+
+section#section-product-sell #container-product-sell 
+.vertical-content-right-product .detalhes-product {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    margin: 30px 0 45px;
+}
+
+section#section-product-sell #container-product-sell 
+.vertical-content-right-product .detalhes-product p,
+section#section-product-sell #container-product-sell 
+.vertical-content-right-product .detalhes-product strong {
+    font-size: 1.4rem;
+    color: var(--black-primary-color);
+}
+
+section#section-product-sell #container-product-sell 
+.vertical-content-right-product .detalhes-product .need-know-product {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+section#section-product-sell #container-product-sell 
+.vertical-content-right-product .detalhes-product ul > li {
+    font-size: 1.4rem;
+    line-height: 3.5rem;
+    list-style: none;
+}
+
+section#section-product-sell #container-product-sell 
+.vertical-content-right-product .detalhes-product p span.unidades-disponiveis {
+    color: rgba(0, 0, 0, .55);
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+
+section#section-product-sell #container-product-sell 
+.vertical-content-right-product .buy-product-add-cart {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 4rem;
+}
+
+section#section-product-sell #container-product-sell 
+.vertical-content-right-product .buy-product-add-cart button {
+    font-size: 1.6rem;
+    font-weight: 500;
+    border-radius: 6px;
+    height: 48px;
+    cursor: pointer;
+    transition: 500ms ease;
+}
+
+section#section-product-sell #container-product-sell 
+.vertical-content-right-product .buy-product-add-cart button#btn-buy-product {
+    background: #3483FA;
+    color: #fff;
+}
+
+section#section-product-sell #container-product-sell 
+.vertical-content-right-product .buy-product-add-cart button#btn-buy-product a {
+    font-size: inherit;
+    color: inherit;
+}
+
+section#section-product-sell #container-product-sell 
+.vertical-content-right-product .buy-product-add-cart button#btn-buy-product:hover {
+    background: #2469d1;
+}
+
+section#section-product-sell #container-product-sell 
+.vertical-content-right-product .buy-product-add-cart button#btn-add-cart {
+    background: #4189E626;
+    color: #3483FA;
+}
+
+section#section-product-sell #container-product-sell 
+.vertical-content-right-product .buy-product-add-cart button#btn-add-cart:hover {
+    background: #064fad26;
+}
+
+section#section-product-sell #container-product-sell 
+.vertical-content-right-product p.p-sell-by {
+    line-height: 40px;
+    font-size: 13.3px;
+}
+
+section#section-product-sell #container-product-sell 
+.vertical-content-right-product p.p-sell-by a {
+    font-size: 1.4rem;
+    color: #3483FA;
+}
+
+section#section-product-sell #container-product-sell 
+.vertical-content-right-product p.p-mercado-lider {
+    font-size: 1.4rem;
+}
+
+section#section-product-sell #container-product-sell 
+.vertical-content-right-product p.p-mercado-lider strong {
+    font-size: inherit;
+}
+
+section#section-product-sell #container-product-sell 
+.vertical-content-right-product p.compra-garantida {
+    font-size: 1.4rem;
+    line-height: 23px;
+    color: #0000008C;
+    margin-top: 2rem;
+}
+
+section#section-product-sell #container-product-sell 
+.vertical-content-right-product p.compra-garantida a {
+    font-size: inherit;
+    color: #3483FA;
+}
+
+section#section-product-sell #container-product-sell 
+.vertical-content-right-product p.compra-garantida a svg {
+    padding-top: 5px;
+}
+
+footer#footer-product-sell {
+    display: flex;
+    justify-content: center;
+    background: #fff;
+    padding: 1.6rem 3rem 1.6rem;
+    margin-top: 5px;
+}
+
+footer#footer-product-sell #content-footer-product-sell {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+footer#footer-product-sell #content-footer-product-sell
+ul#ul-links-footer {
+    display: flex;
+    gap: 2rem;
+    text-align: center;
+}
+
+footer#footer-product-sell #content-footer-product-sell
+ul#ul-links-footer {
+    list-style: none;
+}
+
+footer#footer-product-sell #content-footer-product-sell
+ul#ul-links-footer a {
+    font-size: 1.3rem;
+    color: #333333;
+}
+
+footer#footer-product-sell #content-footer-product-sell
+.footer-copyright-and-address p {
+    font-size: 1.2rem;
+    line-height: 2.2rem;
+    color: #999999;
+}
+
+@media (max-width: 1180px) {
+    header#header-mercado-livre #content-header .second-content-header ul.nav-header li {
+        font-size: 1rem;
+    }
+
+    header#header-mercado-livre #content-header .first-content-header a.meli-header {
+        display: none;
+    }
+
+    section#section-product-sell #container-product-sell #content-product-top {
+        align-items: center;
+    }
+
+    section#section-product-sell #container-product-sell #content-product-top 
+    figure > img {
+        width: 400px;
+    }
+}
+
+@media (max-width: 960px) {
+    header#header-mercado-livre {
+        padding-bottom: 1.5rem;
+    }
+    
+    header#header-mercado-livre #content-header .first-content-header
+    .container-input-search-header {
+        max-width: 100%;
+    }
+
+    header#header-mercado-livre #content-header .second-content-header {
+        display: none;
+    }
+
+    div#brinquedos-hobbies-below-header .content-brinquedos-hobbies a {
+        font-size: 1.2rem;
+    }
+
+    section#section-product-sell #container-product-sell {
+        width: 95%;
+    }
+}
+
+@media (max-width: 900px) {
+    section#section-product-sell #container-product-sell .vertical-content-right-product {
+        display: none;
+    }
+
+    section#section-product-sell #container-product-sell #content-product-top {
+        padding-left: 5rem;
+    }
+
+    section#section-product-sell #container-product-sell #content-product-top {
+        align-items: flex-start;
+    }
+
+    section#section-product-sell #container-product-sell #content-product-top figure > img {
+        margin-bottom: 10rem;
+        width: 90%;
+    }
+
+    section#section-product-sell #container-product-sell 
+    div.hide-buy{
+        display: flex !important;
+        flex-direction: column;
+        width: 90%;
+        max-width: 100%;
+        margin-top: 10rem;
+    }
+
+    section#section-product-sell #container-product-sell div.hide-buy h1.title-product {
+        width: 70%;
+    }
+
+    section#section-product-sell #container-product-sell 
+    .content-left-product .related-products-sell {
+        padding-right: 5rem;
+    }
+
+    footer#footer-product-sell #content-footer-product-sell ul#ul-links-footer li > a {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 723px) {
+    footer#footer-product-sell #content-footer-product-sell ul#ul-links-footer li > a {
+        display: none;
+    }
+}
+
+
+@media (max-width: 760px) {
+    div#brinquedos-hobbies-below-header .content-brinquedos-hobbies .content-texts {
+        display: none;
+    }
+
+    section#section-product-sell #container-product-sell #content-product-top {
+        align-items: center;
+    }
+}
+
+@media (max-width: 630px) {
+    header#header-mercado-livre #content-header .first-content-header 
+    .logo-and-input-header {
+        align-items: center;
+    }
+    
+    header#header-mercado-livre #content-header .first-content-header 
+    .logo-and-input-header img {
+        height: 38px;
+    }
+
+    header#header-mercado-livre #content-header .first-content-header .container-input-search-header 
+    input#input-search-header {
+        font-size: 1.2rem;
+    }
+
+    section#section-product-sell #container-product-sell {
+        width: 100%;
+    }
+
+    section#section-product-sell #container-product-sell #content-product-top {
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        gap: 10rem;
+    }
+
+    section#section-product-sell #container-product-sell #content-product-top figure > img {
+        width: 90%;
+        padding: 0;
+    }
+
+    section#section-product-sell #container-product-sell #content-product-top 
+    .column-images-product {
+        gap: 2rem;
+    }
+
+    section#section-product-sell #container-product-sell #content-product-top 
+    .column-images-product {
+        flex-direction: row;
+    }
+
+    section#section-product-sell #container-product-sell #content-product-top 
+    .column-images-product img.image-show-product:last-child {
+        margin-right: 5px;
+    }
+
+    section#section-product-sell #container-product-sell #content-product-top figure::after {
+        content: none;
+    }
+
+    section#section-product-sell #container-product-sell div.hide-buy {
+        margin-left: 3.5rem;
+    }
+
+    section#section-product-sell #container-product-sell .content-left-product .related-products-sell 
+    .titles-related-products {
+        text-align: center;
+        line-height: 3rem;
+    }
+
+    section#section-product-sell #container-product-sell .content-left-product 
+    .related-products-sell .content-related-products {
+        flex-direction: column;
+    }
+
+    section#section-product-sell #container-product-sell .content-left-product .related-products-sell .content-related-products 
+    .box-related-product img {
+        width: 200px;
+    }
+}
+
+@media (max-width: 590px) {
+    section#section-product-sell #container-product-sell #content-product-top {
+        gap: 8rem;
+    }
+
+    section#section-product-sell #container-product-sell #content-product-top 
+    .column-images-product {
+        gap: 1.5rem;
+    }
+}
+
+@media (max-width: 530px) {
+    header#header-mercado-livre #content-header .first-content-header .logo-and-input-header img {
+        width: 110px;
+    }
+    section#section-product-sell #container-product-sell #content-product-top {
+        padding-left: 4rem;
+        gap: 8rem;
+    }
+
+    section#section-product-sell #container-product-sell #content-product-top figure > img {
+        margin: 0;
+    }
+
+    section#section-product-sell #container-product-sell div.hide-buy {
+        margin-left: 2rem;
+    }
+
+    section#section-product-sell #container-product-sell .content-left-product .product-characteristic-container .content-all-product-characteristic .content-info-characteristic 
+    p.p-product-characteristic {
+        font-size: 1.1rem;
+    }
+}

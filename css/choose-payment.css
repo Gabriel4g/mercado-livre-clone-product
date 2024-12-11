@@ -1,0 +1,174 @@
+main#layout-choose-payment {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+}
+
+main#layout-choose-payment #container-choose-payment {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-top: 4rem;
+    max-width: 600px;
+    padding-left: 5rem;
+}
+
+main#layout-choose-payment #container-choose-payment h1.title-choose-payment {
+    font-size: 2.4rem;
+    color: #333333;
+}
+
+main#layout-choose-payment #container-choose-payment form#form-payment {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+main#layout-choose-payment #container-choose-payment .content-options-payment
+.box-option-payment {
+    background: #fff;
+    border-bottom: 1px solid #EDEDED;
+    padding: 1.2rem 0 1.2rem 2rem;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    cursor: default;
+}
+
+main#layout-choose-payment #container-choose-payment .content-options-payment
+.box-option-payment input[type="radio"] {
+    cursor: pointer;
+}
+
+main#layout-choose-payment #container-choose-payment .content-options-payment
+.box-option-payment .icon-method-payment {
+    border: 1px solid #EDEDED;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+main#layout-choose-payment #container-choose-payment .content-options-payment
+.box-option-payment h3.method-payment {
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 3rem;
+    color: #333333;
+}
+
+main#layout-choose-payment #container-choose-payment .content-options-payment
+.box-option-payment span {
+    background: #E1F9F3;
+    color: #2d7049;
+    padding: 3px;
+    font-size: 8px;
+    font-weight: 700;
+}
+
+main#layout-choose-payment #container-choose-payment .content-options-payment
+.box-option-payment p.immediate-approval {
+    font-size: 8px;
+}
+
+main .flex-end-button-continue {
+    display: flex;
+    justify-content: flex-end;
+}
+
+main .flex-end-button-continue
+button.btn-continue-choose {
+    background: #3483FA;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    padding: 1.3rem 3rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+main .flex-end-button-continue
+button.btn-continue-choose:hover {
+    background: #5D9CFB;
+}
+
+main #container-buy-resume {
+    height: 100%;
+    width: 40%;
+    max-width: 330px;
+    padding: 5rem 4rem 0;
+    background: #f5f5f5;
+}
+
+main #container-buy-resume
+.content-buy-resume {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+main #container-buy-resume
+.content-buy-resume h2.title-buy-resume {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #333333;
+}
+
+main #container-buy-resume
+.content-buy-resume .between-texts-product {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main #container-buy-resume
+.content-buy-resume .between-texts-product p {
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 2.5rem;
+    color: #333333;
+}
+
+main #container-buy-resume
+.content-buy-resume .info-buy-resume .between-texts-product span {
+    font-size: 1.2rem;
+    color: #333333;
+}
+
+main #container-buy-resume
+.content-buy-resume .info-buy-resume .between-texts-product span.free-delivery {
+    color: #0ab953;
+}
+
+main #container-buy-resume
+.content-buy-resume strong.value-product-again {
+    font-size: 1.4rem;
+}
+
+@media (max-width: 740px) {
+    main#layout-choose-payment {
+        flex-direction: column;
+        gap: 5rem;
+        align-items: center;
+        overflow: hidden;
+    }
+
+    main#layout-choose-payment #container-choose-payment {
+        padding: 0;
+    }
+
+    main #container-buy-resume {
+        width: 100%;
+        max-width: 100%;
+        border: 1px solid #000;
+        padding-top: 3rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    main #container-buy-resume .content-buy-resume {
+        width: 100%;
+        max-width: 80%;
+    }
+}

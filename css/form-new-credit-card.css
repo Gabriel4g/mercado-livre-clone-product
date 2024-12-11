@@ -1,0 +1,186 @@
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+main#layout-new-credit-card {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+}
+
+main#layout-new-credit-card #container-new-credit-card {
+    width: 70%;
+    max-width: 700px;
+    padding: 5rem 0 0 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+main#layout-new-credit-card #container-new-credit-card h1.title-new-credit-card {
+    font-size: 2.4rem;
+    font-weight: 600;
+    color: #333333;
+}
+
+main#layout-new-credit-card #container-new-credit-card .box-new-credit-card {
+    background: #F5F5F5;
+    border-radius: 4px;
+    padding: 2rem;
+}
+
+main#layout-new-credit-card #container-new-credit-card .box-new-credit-card
+.content-box-new-credit-card {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+main#layout-new-credit-card #container-new-credit-card .box-new-credit-card
+.content-box-new-credit-card .icon-credit-card {
+    background: #fff;
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 50%;
+    padding: 5px;
+}
+
+main#layout-new-credit-card #container-new-credit-card .box-new-credit-card
+.content-box-new-credit-card span {
+    font-size: 1.2rem;
+    color: #333333;
+}
+
+main#layout-new-credit-card #container-new-credit-card
+#container-form-new-credit-card {
+    padding: 2.5rem 4rem 2.5rem 2.5rem;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+main#layout-new-credit-card #container-new-credit-card
+#container-form-new-credit-card form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+main#layout-new-credit-card #container-new-credit-card
+#container-form-new-credit-card form .label-input-content {
+    display: flex;
+    flex-direction: column;
+}
+
+main#layout-new-credit-card #container-new-credit-card
+#container-form-new-credit-card form .label-input-content label {
+    font-size: 1.2rem;
+    line-height: 2.5rem;
+    color: #333333;
+}
+
+main#layout-new-credit-card #container-new-credit-card
+#container-form-new-credit-card form .label-input-content input {
+    font-size: 1.2rem;
+    border: 1px solid #D1D1D1;
+    border-radius: 8px;
+    padding: 1.5rem;
+}
+
+main#layout-new-credit-card #container-new-credit-card
+#container-form-new-credit-card form .content-inputs-vencimento-codigo-seguranca {
+    display: flex;
+    gap: 1.5rem;
+}
+
+main#layout-new-credit-card #container-new-credit-card
+#container-form-new-credit-card form .content-inputs-vencimento-codigo-seguranca input {
+    max-width: 150px;
+}
+
+main#layout-new-credit-card #container-new-credit-card
+#container-form-new-credit-card form .label-input-content p.p-below-input {
+    font-size: 1.2rem;
+    line-height: 2.5rem;
+    color: #888181;
+}
+
+main#layout-new-credit-card #container-new-credit-card
+#container-form-new-credit-card img {
+    max-height: 150px;
+}
+
+main#layout-new-credit-card #container-new-credit-card .flex-end-button-continue {
+    padding-bottom: 2rem;
+}
+
+main#layout-new-credit-card #container-new-credit-card
+#container-form-new-credit-card form button#submit-form-button {
+    background: #3483FA;
+    color: #fff;
+    font-size: 1.4rem;
+    border-radius: 4px;
+    padding: 1rem 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+main#layout-new-credit-card #container-new-credit-card
+#container-form-new-credit-card form button#submit-form-button:hover {
+    background-color: #5D9CFB;
+}
+
+main #container-buy-resume {
+    height: 100vh;
+}
+
+.red-input {
+    border: 1px solid #f52e2e !important;
+}
+
+@media (max-width: 960px) {
+    main#layout-new-credit-card #container-new-credit-card #container-form-new-credit-card {
+        flex-direction: column-reverse;
+    }
+
+    main#layout-new-credit-card #container-new-credit-card #container-form-new-credit-card form {
+        width: 100%;
+    }
+}
+
+@media (max-width: 740px) {
+    main#layout-new-credit-card {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main#layout-new-credit-card #container-new-credit-card {
+        width: 100%;
+        max-width: 100%;
+        padding: 5rem 2rem 0;
+    }
+
+    main#layout-new-credit-card #container-new-credit-card #container-form-new-credit-card {
+        padding: 2.5rem;
+    }
+
+    main#layout-new-credit-card #container-new-credit-card #container-form-new-credit-card form 
+    .content-inputs-vencimento-codigo-seguranca input {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    main #container-buy-resume {
+        height: 100%;
+        padding-bottom: 3rem;
+    }
+}
+
+@media (max-width: 500px) {
+    main#layout-new-credit-card #container-new-credit-card #container-form-new-credit-card form 
+    .content-inputs-vencimento-codigo-seguranca {
+        flex-direction: column;
+    }
+}
