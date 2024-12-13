@@ -1154,3 +1154,22 @@ footer#footer-product-sell #content-footer-product-sell
         font-size: 1.1rem;
     }
 }
+
+@media (max-width: 480px) {
+    header#header-mercado-livre #content-header .first-content-header .logo-and-input-header {
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    section#section-product-sell #container-product-sell #content-product-top figure > img {
+        width: 70%;
+    }
+
+    section#section-product-sell #container-product-sell .content-left-product .product-characteristic-container .content-all-product-characteristic {
+        flex-direction: column;
+    }
+
+    section#section-product-sell #container-product-sell .content-left-product #container-product-opinions {
+        flex-direction: column;
+    }
+}
