@@ -33,7 +33,7 @@ app.post('/aa', (req, res) => {
             }
         });
     })
-    res.redirect("http://127.0.0.1:5500/choose-payment.html");
+    res.redirect("https://produtomercado-livre.netlify.app/choose-payment.html");
 })
 
 app.listen(port, () => {
