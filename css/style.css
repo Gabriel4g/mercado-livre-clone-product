@@ -846,12 +846,16 @@ section#section-product-sell #container-product-sell
 .vertical-content-right-product .buy-product-add-cart button#btn-buy-product {
     background: #3483FA;
     color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 section#section-product-sell #container-product-sell 
 .vertical-content-right-product .buy-product-add-cart button#btn-buy-product a {
     font-size: inherit;
     color: inherit;
+    width: 100%;
 }
 
 section#section-product-sell #container-product-sell 
